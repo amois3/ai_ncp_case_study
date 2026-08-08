@@ -16,7 +16,7 @@ npm test
 
 | Component | Responsibility | Test focus |
 | --- | --- | --- |
-| `src/permission_grounding_core.mjs` | Access policy, permission-first retrieval, source-linked answers and correction history | isolation, refusal and provenance |
+| `src/permission_grounding_core.ts` | Access policy, permission-first retrieval, source-linked answers and correction history | isolation, refusal and provenance |
 | `test/` | Executable security invariants | private-room leakage and replay behaviour |
 | `docs/` | Architecture, decisions and threat model | why filtering output is too late |
 
