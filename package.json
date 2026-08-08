@@ -1,0 +1,8 @@
+{
+  "name": "ai_ncp_case_study",
+  "private": true,
+  "type": "module",
+  "scripts": { "test": "tsx --test" },
+  "engines": { "node": ">=20" },
+  "devDependencies": { "tsx": "4.20.0" }
+}
