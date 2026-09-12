@@ -1,11 +1,11 @@
-# AI NCP — the permission and grounding core, isolated
+# AI NCP — the permission and grounding rule, as a runnable core
 
 [![CI](https://github.com/amois3/ai_ncp_case_study/actions/workflows/ci.yml/badge.svg)](https://github.com/amois3/ai_ncp_case_study/actions/workflows/ci.yml)
 ![Node](https://img.shields.io/badge/Node-20%2B-339933?logo=node.js&logoColor=white)
 ![Runtime dependencies](https://img.shields.io/badge/runtime%20dependencies-0-2ea44f)
 [![License](https://img.shields.io/badge/license-review--only-6f42c1)](LICENSE)
 
-AI NCP is an AI-native community operating system for invite-only professional communities. It treats people, rooms, threads, events, permissions and memory as first-class system objects. The private product is a TypeScript monorepo spanning web, services, workers, mobile and data infrastructure. This public repository is a runnable reference core for the constraint that matters most: an AI system must only retrieve and answer from evidence the current person is entitled to access.
+AI NCP is an AI-native community operating system for invite-only professional communities. It treats people, rooms, threads, events, permissions and memory as first-class system objects. The private product is a TypeScript monorepo spanning web, services, workers, mobile and data infrastructure. This public repository is a runnable reference core for the constraint that matters most: an AI system must only retrieve and answer from evidence the current person is entitled to access. It is written for this repository rather than lifted from the product: the private implementation expresses the same rule through roles and visible scopes — host, moderator and member authority, stewardship, per-room moderation — where this core uses a deliberately flat visibility model. The constraint is the same and the product is the richer of the two; what is here is the smallest version that can be read in one sitting and run without an account.
 
 ```bash
 npm test
